@@ -1,0 +1,39 @@
+h1 {
+    color: gold;
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+p {
+    color: blue;
+    front-size: 30px;
+}
+
+h4 {
+    color: blueviolet;
+}
+
+
+.destacados {
+    color: rgb(161, 78, 78);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: gold;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#caja {
+    background-color: darkgoldenrod;
+
+    width: 350px;
+    height: 350px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
