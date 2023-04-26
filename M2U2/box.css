@@ -1,0 +1,105 @@
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+    width: 150px;
+    
+}
+.item1{    
+    background-color: red;
+    color: whitesmoke;
+    width: 40px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+.item2{    
+    background-color: blue;
+    color: whitesmoke;
+    width: 40px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+.item3{    
+    background-color: green;
+    color: whitesmoke;
+    width: 40px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: white;
+    border: 2px solid black; 
+    margin: auto;
+    width: 150px;
+    height: 200px;
+}
+.item4{
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+.item5{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+.item6{
+    background-color: green;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenedor3{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid black;
+    height: 50px;
+}
+.item7{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+.item8{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+.item9{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
