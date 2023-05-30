@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    
+    <script>
+        const valor=parseInt(prompt("Cual es la distancia que debe recorrer?\n"
+            + "1. de 0 a 1000 metros\n"
+            + "2. de 1000 a 10000 metros\n"
+            + "3. de 10000 a 30000 metros\n"
+            + "4. de 30000 a 100000 metros\n"
+            + "5. mas de 100000 metros\n"
+            ));
+
+            switch (valor) {
+                case 1:
+                document.write('Se recomienda ir a Pie');
+                break;      
+                case 2:
+                document.write('Se recomienda ir en bicicleta');
+                break;
+                case 3:
+                document.write('Se recomienda ir en colectivo');
+                break;
+                case 4:
+                document.write('Se recomienda ir en auto');
+                break;
+                case 5:
+                document.write('Se recomienda ir en avion');
+                break;
+                default:
+                document.write('debe ingresar un valor comprendido entre 1 y 5.');
+            }
+        
+    </script>   
+</body>
+</html>
