@@ -1,0 +1,85 @@
+body{
+    background: rgb(46,15,48);
+background: linear-gradient(63deg, rgba(46,15,48,1) 0%, rgba(255,166,0,1) 100%);
+    padding: 10px;
+    color: white;
+}
+.titulo, .subtitulo, h3{
+    color: white;
+    text-decoration: overline underline;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+}
+.container button{
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
+.mod1{
+    color: rgb(255, 0, 221);
+    font-size: medium;
+}
+.mod2{
+    color: rgb(119, 119, 119);
+    font-size: medium;
+}
+.mod3{
+    color: #3cff00;
+    font-size: medium;
+}
+.mod1:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #ff00ff;
+}
+.mod2:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #8f8f8f;
+}
+.mod3:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #1eff00;
+}
+.separador{
+    color: rgb(248, 0, 0);
+}
+
+/*  EJERCICIO 2 */
+
+#txt, #txtVista{
+    width: 340px;
+    height: 100px;
+    padding: 2px;
+    background-color: #eee;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.container-contador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+
+/* EJERCICIO 3 */
+
+.container-text{
+    background-color: #eee;
+    color: #000000;
+    font-weight: bold;
+    padding-inline-start: 10px;
+    width: 350px;
+}
